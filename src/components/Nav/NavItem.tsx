@@ -4,10 +4,14 @@ import Link from "next/link";
 interface NavItemProps {
   text: string;
   link: string;
-  isMobile: boolean;
+  isMobile?: boolean;
 }
 
-export default function NavItem({ text, link, isMobile }: NavItemProps) {
+export default function NavItem({
+  text,
+  link,
+  isMobile = false,
+}: NavItemProps) {
   return (
     <li
       className={`${
