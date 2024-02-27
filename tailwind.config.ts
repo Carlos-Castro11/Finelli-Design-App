@@ -13,8 +13,8 @@ const config: Config = {
         DEFAULT: "1rem",
         sm: "3rem",
         lg: "6rem",
-        xl: "12rem",
-        "2xl": "20rem",
+        xl: "8rem",
+        "2xl": "10rem",
       },
     },
     colors: {
