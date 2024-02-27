@@ -17,18 +17,20 @@ const config: Config = {
         "2xl": "10rem",
       },
     },
-    colors: {
-      "primary-color": "#294E5B",
-      "secondary-color": "#ACA2A0",
-      "background-color": "#FAFAFA",
-      "body-background": "#D9D9D9",
-      transparent: "transparent",
-      white: "#FFFF",
-      black: "#000007",
-      gray: "#8F8F8F",
+    extend: {
+      colors: {
+        "primary-color": "#294E5B",
+        "secondary-color": "#ACA2A0",
+        "background-color": "#FAFAFA",
+        "body-background-color": "#D9D9D9",
+        transparent: "transparent",
+        white: "#FFFF",
+        black: "#000007",
+        gray: "#8F8F8F",
 
-      // Dark Theme
-      "dark-primary-color": "#000",
+        // Dark Theme
+        "dark-primary-color": "#000",
+      },
     },
   },
   plugins: [],

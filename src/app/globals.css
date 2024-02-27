@@ -5,3 +5,25 @@
 body {
   -webkit-text-smoothing: antialiased;
 }
+
+.animeRight {
+  opacity: 0;
+  animation: anime 0.3s forwards;
+}
+
+.animeLeft {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: anime 0.3s forwards;
+}
+
+@keyframes anime {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
