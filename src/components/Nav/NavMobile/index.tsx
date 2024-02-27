@@ -4,6 +4,7 @@ import React from "react";
 // Components
 import { NavMobileRoot } from "./NavMobileRoot";
 import { NavRoot } from "../NavRoot";
+import { ButtonMobile } from "./ButtonMobile";
 
 // Constants
 import { ConstantsTitles, ConstantsUrls } from "@/constants";
@@ -12,12 +13,10 @@ export default function NavMobile() {
   const [mobileActive, setMobileActive] = React.useState(false);
   return (
     <>
-      <button
+      <ButtonMobile
         onClick={() => setMobileActive(!mobileActive)}
-        className="bg-violet-600 text-white"
-      >
-        menu
-      </button>
+        isMenuMobileActive={mobileActive}
+      />
       {mobileActive ? (
         <NavMobileRoot.Wrapper>
           <NavRoot.Item
