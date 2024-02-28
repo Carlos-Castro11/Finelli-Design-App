@@ -1,5 +1,5 @@
-import NavMobileWrapper from "./NavMobileWrapper";
+import { ButtonMobile } from "./ButtonMobile";
 
 export const NavMobileRoot = {
-  Wrapper: NavMobileWrapper,
+  Button: ButtonMobile,
 };

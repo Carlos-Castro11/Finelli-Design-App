@@ -1,20 +1,20 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React from "react";
 
-type Props = {
+interface DelayedProps {
   children: React.ReactNode;
-  waitBeforeShow?: number;
-};
+  milliseconds?: number;
+}
 
-const Delayed = ({ children, waitBeforeShow = 500 }: Props) => {
-  const [isShown, setIsShown] = useState(false);
+const Delayed = ({ children, milliseconds = 100 }: DelayedProps) => {
+  const [isShown, setIsShown] = React.useState<boolean>(false);
 
-  useEffect(() => {
+  React.useEffect(() => {
     const timer = setTimeout(() => {
       setIsShown(true);
-    }, waitBeforeShow);
+    }, milliseconds);
     return () => clearTimeout(timer);
-  }, [waitBeforeShow]);
+  }, [milliseconds]);
 
   return isShown ? children : null;
 };
