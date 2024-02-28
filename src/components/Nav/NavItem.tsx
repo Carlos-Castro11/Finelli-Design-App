@@ -4,7 +4,7 @@ import Link from "next/link";
 interface NavItemProps {
   text: string;
   link: string;
-  isMobile: boolean;
+  isMobile?: boolean;
 }
 
 export default function NavItem({ text, link, isMobile }: NavItemProps) {
