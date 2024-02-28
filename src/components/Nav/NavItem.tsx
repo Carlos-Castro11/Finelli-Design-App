@@ -21,7 +21,7 @@ export default function NavItem({
     >
       {isMobile ? icon : null}
       <Link
-        className={`drop-shadow ${
+        className={`drop-shadow-sm ${
           isMobile
             ? "text-lg"
             : `p-0.5 relative text-base
