@@ -4,6 +4,7 @@ import React from "react";
 // Components
 import { NavMobileRoot } from "./NavMobileRoot";
 import { NavRoot } from "../NavRoot";
+
 // Constants
 import { ConstantsTitles, ConstantsUrls } from "@/constants";
 
@@ -19,7 +20,7 @@ export default function NavMobile() {
         isMenuMobileActive={mobileActive}
       />
       {mobileActive ? (
-        <NavRoot.Wrapper isMobile={true}>
+        <NavMobileRoot.Wrapper isMobile={true}>
           <NavRoot.Item
             icon={<Icon name="Home" />}
             isMobile={true}
@@ -44,7 +45,7 @@ export default function NavMobile() {
             link={ConstantsUrls.CONTACT_URL}
             text={ConstantsTitles.CONTACT_TITLE}
           />
-        </NavRoot.Wrapper>
+        </NavMobileRoot.Wrapper>
       ) : null}
     </>
   );
