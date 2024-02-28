@@ -16,16 +16,14 @@ export default function NavItem({
   return (
     <li
       className={`${
-        isMobile
-          ? `border-b-[1px] border-bottom-primary-color flex gap-2`
-          : null
+        isMobile ? "border-b-[1px] border-bottom-primary-color flex gap-2" : ""
       }`}
     >
       {isMobile ? icon : null}
       <Link
-        className={`${
+        className={`drop-shadow ${
           isMobile
-            ? `text-lg`
+            ? "text-lg"
             : `p-0.5 relative text-base
           after:bg-primary-color after:content-[''] 
           after:absolute after:h-0.5 after:w-0 after:bottom-0.5 after:left-1/2 
