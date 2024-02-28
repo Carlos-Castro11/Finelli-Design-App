@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 export default function useMedia(size: string) {
@@ -8,7 +9,7 @@ export default function useMedia(size: string) {
       const { matches } = window.matchMedia(size);
       setMatch(matches);
     }
-
+    handleResize();
     window.addEventListener("resize", handleResize);
     return () => {
       window.removeEventListener("resize", handleResize);

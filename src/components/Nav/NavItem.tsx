@@ -1,19 +1,27 @@
-"use client";
 import Link from "next/link";
 
 interface NavItemProps {
   text: string;
   link: string;
   isMobile?: boolean;
+  icon?: JSX.Element;
 }
 
-export default function NavItem({ text, link, isMobile }: NavItemProps) {
+export default function NavItem({
+  text,
+  link,
+  isMobile = false,
+  icon,
+}: NavItemProps) {
   return (
     <li
       className={`${
-        isMobile ? `border-b-[1px] border-bottom-primary-color` : null
+        isMobile
+          ? `border-b-[1px] border-bottom-primary-color flex gap-2`
+          : null
       }`}
     >
+      {isMobile ? icon : null}
       <Link
         className={`${
           isMobile
