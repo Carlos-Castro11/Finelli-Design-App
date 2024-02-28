@@ -19,7 +19,7 @@ export default function NavMobile() {
         isMenuMobileActive={mobileActive}
       />
       {mobileActive ? (
-        <NavMobileRoot.Wrapper>
+        <NavRoot.Wrapper isMobile={true}>
           <NavRoot.Item
             icon={<Icon name="Home" />}
             isMobile={true}
@@ -44,7 +44,7 @@ export default function NavMobile() {
             link={ConstantsUrls.CONTACT_URL}
             text={ConstantsTitles.CONTACT_TITLE}
           />
-        </NavMobileRoot.Wrapper>
+        </NavRoot.Wrapper>
       ) : null}
     </>
   );
