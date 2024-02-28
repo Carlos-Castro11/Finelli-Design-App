@@ -19,7 +19,7 @@ export const ButtonMobile = ({
       before:transition before:duration-500 before:ease-out
       ${
         isMenuMobileActive
-          ? `before:rotate-90 before:w-[4px] before:h-1 before:rounded-full 
+          ? `before:rotate-90 before:w-[4px] before:h-1 before:rounded-full before:transition before:duration-500 before:ease-out
           `
           : null
       }
