@@ -4,7 +4,6 @@ import React from "react";
 // Components
 import { NavMobileRoot } from "./NavMobileRoot";
 import { NavRoot } from "../NavRoot";
-
 // Constants
 import { ConstantsTitles, ConstantsUrls } from "@/constants";
 

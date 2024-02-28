@@ -1,3 +1,4 @@
+"use client";
 import { ComponentProps } from "react";
 
 interface ButtonMobileProps extends ComponentProps<"button"> {
@@ -19,7 +20,7 @@ export const ButtonMobile = ({
       before:transition before:duration-500 before:ease-out
       ${
         isMenuMobileActive
-          ? `before:rotate-90 before:w-[4px] before:h-1 before:rounded-full before:transition before:duration-500 before:ease-out
+          ? `before:rotate-90 before:w-[4px] before:h-1 before:rounded-full
           `
           : null
       }
