@@ -4,7 +4,7 @@ interface NavItemProps {
   text: string;
   link: string;
   isMobile?: boolean;
-  icon?: JSX.Element;
+  icon?: React.ReactNode;
 }
 
 export default function NavItem({
