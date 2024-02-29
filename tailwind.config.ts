@@ -11,9 +11,9 @@ const config: Config = {
       center: true,
       padding: {
         DEFAULT: "1rem",
-        sm: "3rem",
-        lg: "6rem",
-        xl: "8rem",
+        sm: "1rem",
+        lg: "5rem",
+        xl: "5rem",
         "2xl": "10rem",
       },
     },

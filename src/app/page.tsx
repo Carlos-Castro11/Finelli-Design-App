@@ -1,7 +1,12 @@
+"use client";
+import Slider from "@/components/Slider";
+import SliderContent from "@/components/Slider/SliderContent";
+
 export default function Home() {
   return (
     <>
-      <h1>Home</h1>
+      <Slider />
+      <h1 className="font-bold text-lg">SOBRE</h1>
     </>
   );
 }

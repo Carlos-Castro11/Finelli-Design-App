@@ -3,7 +3,48 @@
 @tailwind utilities;
 
 body {
-  -webkit-text-smoothing: antialiased;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+/* Slider active bullet */
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #294e5b;
+  opacity: 1;
+  height: 8px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 2px black;
+}
+
+/* Slider all bullets */
+span.swiper-pagination-bullet {
+  background-color: #aca2a0;
+  width: 20px;
+  height: 4px;
+  border-radius: 0px;
+  opacity: 0.7;
+  border-radius: 1.5px;
+}
+
+/* Slider all bullets position */
+.swiper-pagination {
+  z-index: 10;
+  top: 95.5% !important;
+}
+
+@media (max-width: 800px) {
+  .swiper-pagination {
+    top: 93% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .swiper-pagination {
+    top: 90% !important;
+  }
 }
 
 /* Animations */
