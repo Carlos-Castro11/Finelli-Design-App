@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Slider />
-      <h1 className="font-bold text-lg">SOBRE</h1>
+      <h1 className="font-bold text-lg">Projetos</h1>
     </>
   );
 }

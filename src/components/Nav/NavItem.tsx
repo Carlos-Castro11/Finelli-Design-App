@@ -27,7 +27,7 @@ export default function NavItem({
             : `p-0.5 relative text-base
           after:bg-primary-color after:content-[''] 
           after:absolute after:h-0.5 after:w-0 after:bottom-0.5 after:left-1/2 
-          after:duration-200 after:ease-in-out after:translate-x-[-50%]
+          after:duration-300 after:ease-in-out after:translate-x-[-50%]
           hover:after:w-full`
         }`}
         href={link}

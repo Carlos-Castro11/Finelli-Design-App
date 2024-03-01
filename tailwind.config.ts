@@ -14,7 +14,7 @@ const config: Config = {
         sm: "1rem",
         lg: "5rem",
         xl: "5rem",
-        "2xl": "10rem",
+        "2xl": "6rem",
       },
     },
     extend: {
@@ -30,6 +30,9 @@ const config: Config = {
 
         // Dark Theme
         "dark-primary-color": "#000",
+      },
+      boxShadow: {
+        "inner-md": "inset 0px 0px 3px 0px rgb(0 0 0 / 1);",
       },
     },
   },

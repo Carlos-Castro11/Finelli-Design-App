@@ -12,12 +12,12 @@ export default function Nav() {
         text={ConstantsTitles.HOME_TITLE}
       />
       <NavRoot.Item
-        link={ConstantsUrls.ABOUT_URL}
-        text={ConstantsTitles.ABOUT_TITLE}
-      />
-      <NavRoot.Item
         link={ConstantsUrls.PROJECTS_URL}
         text={ConstantsTitles.PROJECTS_TITLE}
+      />
+      <NavRoot.Item
+        link={ConstantsUrls.ABOUT_URL}
+        text={ConstantsTitles.ABOUT_TITLE}
       />
       <NavRoot.Item
         link={ConstantsUrls.CONTACT_URL}

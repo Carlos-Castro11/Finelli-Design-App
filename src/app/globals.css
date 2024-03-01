@@ -32,19 +32,7 @@ span.swiper-pagination-bullet {
 /* Slider all bullets position */
 .swiper-pagination {
   z-index: 10;
-  top: 95.5% !important;
-}
-
-@media (max-width: 800px) {
-  .swiper-pagination {
-    top: 93% !important;
-  }
-}
-
-@media (max-width: 600px) {
-  .swiper-pagination {
-    top: 90% !important;
-  }
+  top: 96% !important;
 }
 
 /* Animations */
@@ -67,5 +55,18 @@ span.swiper-pagination-bullet {
   100% {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+  .swiper-pagination {
+    top: 93% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .swiper-pagination {
+    top: 90% !important;
   }
 }
