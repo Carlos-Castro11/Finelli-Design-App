@@ -1,12 +1,14 @@
 "use client";
 import Slider from "@/components/Slider";
-import SliderContent from "@/components/Slider/SliderContent";
-
+import Projects from "@/components/Sections/Projects";
+import About from "@/components/Sections/About";
 export default function Home() {
   return (
     <>
       <Slider />
-      <h1 className="font-bold text-lg">Projetos</h1>
+      <Projects />
+      <About />
+      <About />
     </>
   );
 }

@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-
+import teste from "./public/next.svg";
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -24,7 +24,7 @@ const config: Config = {
         "background-color": "#FAFAFA",
         "body-background-color": "#D9D9D9",
         transparent: "transparent",
-        white: "#FFFF",
+        white: "#FFFFFF",
         black: "#000007",
         gray: "#8F8F8F",
 
