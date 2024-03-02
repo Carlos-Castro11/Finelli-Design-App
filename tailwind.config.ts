@@ -10,11 +10,11 @@ const config: Config = {
     container: {
       center: true,
       padding: {
-        DEFAULT: "1rem",
+        DEFAULT: ".5rem",
         sm: "1rem",
-        lg: "5rem",
-        xl: "5rem",
-        "2xl": "6rem",
+        lg: "2rem",
+        xl: "3rem",
+        "2xl": "4rem",
       },
     },
     extend: {
@@ -33,6 +33,11 @@ const config: Config = {
       },
       boxShadow: {
         "inner-md": "inset 0px 0px 3px 0px rgb(0 0 0 / 1);",
+        large: "0 0px 2px rgba(0, 0, 0, .9)",
+        xlarge: "0 0px 10px rgba(0, 0, 0, .8)",
+      },
+      dropShadow: {
+        text: "0 0px 1px rgba(0, 0, 0, .35)",
       },
     },
   },
