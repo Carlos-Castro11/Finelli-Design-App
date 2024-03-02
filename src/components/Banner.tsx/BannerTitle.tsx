@@ -11,7 +11,7 @@ interface BannerTitleProps {
 export default function BannerTitle({ text }: BannerTitleProps) {
   return (
     <div
-      className={`${font.className} border-none uppercase bg-background-color p-2 rounded shadow-xlarge`}
+      className={`${font.className} bg-background-color border-none uppercase p-2 to-0% rounded shadow-xlarge`}
     >
       <h1 className="md:text-7xl text-5xl font-bold drop-shadow-text text-primary-color">
         {text}
