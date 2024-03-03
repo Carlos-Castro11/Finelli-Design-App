@@ -4,13 +4,10 @@ interface TitleSectionProps {
 
 export default function TitleSection({ title }: TitleSectionProps) {
   return (
-    <h1
-      className={`md:text-7xl text-3xl font-bold text-primary-color uppercase relative
-      before:content[''] before:absolute before:bg-gradient-to-r from-transparent from-[1%] to-primary-color 
-      to-[20%] before:bottom-[45%] before:left-[35%] before:h-0.5 before:w-[65%]
-    `}
-    >
-      {title}
-    </h1>
+    <div className="shadow-large bg-primary-color border-t-2 border-b-2 border-t-white border-b-white flex items-ceter justify-center p-5">
+      <h1 className="drop-shadow-text font-bold uppercase text-3xl text-white">
+        {title}
+      </h1>
+    </div>
   );
 }

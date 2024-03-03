@@ -23,10 +23,10 @@ const config: Config = {
         "secondary-color": "#ACA2A0",
         "background-color": "#FAFAFA",
         "body-background-color": "#D9D9D9",
+        "black-banner": "rgba(0,0,0,.5)",
         transparent: "transparent",
         white: "#FFFFFF",
         black: "#000007",
-        gray: "#8F8F8F",
 
         // Dark Theme
         "dark-primary-color": "#000",
@@ -37,7 +37,7 @@ const config: Config = {
         xlarge: "0 0px 10px rgba(0, 0, 0, .8)",
       },
       dropShadow: {
-        text: "0 0px 1px rgba(0, 0, 0, .35)",
+        text: "0 0px 1px rgba(0, 0, 0, .7)",
       },
     },
   },
