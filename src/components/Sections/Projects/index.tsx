@@ -1,4 +1,3 @@
-import Banner from "@/components/Banner.tsx";
 import TitleSection from "@/components/TitleSection";
 export default function Projects() {
   return (
