@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 
 // Components
 import Header from "@/components/Header";
-import Container from "@/utils/Container";
 import Footer from "@/components/Footer";
 
 // Fonts
@@ -27,7 +26,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className={`${font.className} bg-body-background-color h-screen`}>
         <Header />
-        <Container>{children}</Container>
+        {children}
         <Footer />
       </body>
     </html>
