@@ -34,6 +34,12 @@ export default function NavMobile() {
             text={ConstantsTitles.PROJECTS_TITLE}
           />
           <NavRoot.Item
+            icon={<Icon name="Book" />}
+            isMobile={true}
+            link={ConstantsUrls.SERVICES_URL}
+            text={ConstantsTitles.SERVICES_TITLE}
+          />
+          <NavRoot.Item
             icon={<Icon name="Heart" />}
             isMobile={true}
             link={ConstantsUrls.ABOUT_URL}

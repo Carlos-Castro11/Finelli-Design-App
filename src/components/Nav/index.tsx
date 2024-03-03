@@ -16,6 +16,10 @@ export default function Nav() {
         text={ConstantsTitles.PROJECTS_TITLE}
       />
       <NavRoot.Item
+        link={ConstantsUrls.SERVICES_URL}
+        text={ConstantsTitles.SERVICES_TITLE}
+      />
+      <NavRoot.Item
         link={ConstantsUrls.ABOUT_URL}
         text={ConstantsTitles.ABOUT_TITLE}
       />
