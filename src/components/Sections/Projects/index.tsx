@@ -10,7 +10,7 @@ export default function Projects() {
       <section id="projects" className="mt-1">
         <TitleSection title={ConstantsTitles.PROJECTS_TITLE} />
         <Container>
-          <div className="mt-4 grid grid-cols-1 gap-4">
+          <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <Project image="spider-man.jpg" />
             <Project image="iron-man.jpg" />
             <Project image="groot.jpg" />

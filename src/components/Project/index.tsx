@@ -7,6 +7,8 @@ interface ProjectProps {
 export default function Project({ image }: ProjectProps) {
   return (
     // eslint-disable-next-line @next/next/no-img-element
-    <ProjectRoot.Image image={image}></ProjectRoot.Image>
+    <ProjectRoot.Wrapper>
+      <ProjectRoot.Image image={image}/>
+    </ProjectRoot.Wrapper>
   );
 }

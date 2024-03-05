@@ -15,7 +15,7 @@ export default function Footer() {
             <p className="flex gap-1 items-center">
               Desenvolvido por Carlos Castro
               <span className="text-primary-color">
-                <Icon name="Code" />
+                <Icon name="Code" size={15}/>
               </span>
             </p>
           </div>
