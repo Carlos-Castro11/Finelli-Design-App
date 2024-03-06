@@ -44,7 +44,11 @@ export default function SliderContent({
         <SwiperSlide key={src} className="mb-7">
           <div className="relative group">
             {/*eslint-disable-next-line @next/next/no-img-element */}
-            <img src={src} alt="" className="shadow-large" />
+            <img
+              src={src}
+              alt="Imagem de um projeto de interiores"
+              className="shadow-large"
+            />
           </div>
         </SwiperSlide>
       ))}

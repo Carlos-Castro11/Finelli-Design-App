@@ -1,7 +1,11 @@
+// Constants
+import { ConstantsTitles } from "../../../constants/index";
+
+// Components
+import Project from "@/components/Project";
 import TitleSection from "@/components/TitleSection";
 
-import { ConstantsTitles } from "../../../constants/index";
-import Project from "@/components/Project";
+// Utils
 import Container from "@/utils/Container";
 
 export default function Projects() {

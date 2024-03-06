@@ -1,6 +1,11 @@
+// Components
 import Service from "@/components/Service";
 import TitleSection from "@/components/TitleSection";
+
+// Constants
 import { ConstantsTitles } from "@/constants";
+
+// Utils
 import Container from "@/utils/Container";
 import Icon from "@/utils/Icon";
 
