@@ -1,5 +1,3 @@
-import Icon from "@/utils/Icon";
-
 interface CardContentProps {
   title: string;
   text: string;

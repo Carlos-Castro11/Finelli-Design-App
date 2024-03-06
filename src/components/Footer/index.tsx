@@ -1,4 +1,5 @@
 "use client";
+// Icon
 import Icon from "@/utils/Icon";
 
 export default function Footer() {
@@ -15,7 +16,7 @@ export default function Footer() {
             <p className="flex gap-1 items-center">
               Desenvolvido por Carlos Castro
               <span className="text-primary-color">
-                <Icon name="Code" size={15}/>
+                <Icon name="Code" size={15} />
               </span>
             </p>
           </div>

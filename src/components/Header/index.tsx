@@ -1,7 +1,7 @@
 "use client";
-import { HeaderRoot } from "./HeaderRoot";
 
 // Components
+import { HeaderRoot } from "./HeaderRoot";
 import Logo from "../assets/Logo";
 import Nav from "../Nav";
 import NavMobile from "../Nav/NavMobile";
