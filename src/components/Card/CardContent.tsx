@@ -1,16 +1,12 @@
 import Icon from "@/utils/Icon";
 
-interface ServiceContentProps {
+interface CardContentProps {
   title: string;
   text: string;
   icon: React.ReactNode;
 }
 
-export default function ServiceContent({
-  title,
-  text,
-  icon,
-}: ServiceContentProps) {
+export default function CardContent({ title, text, icon }: CardContentProps) {
   return (
     <div className={`p-5 text-center grid gap-6`}>
       <div className="flex justify-center text-primary-color">{icon}</div>

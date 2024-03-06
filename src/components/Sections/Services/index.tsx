@@ -1,5 +1,5 @@
 // Components
-import Service from "@/components/Service";
+import Card from "@/components/Card";
 import TitleSection from "@/components/TitleSection";
 
 // Constants
@@ -19,29 +19,27 @@ export default function Services() {
   vitae excepturi veritatis alias fuga nemo natus. 
   Reprehenderit odit excepturi cupiditate id! Ab placeat provident eos qui?  eos qui?`;
   return (
-    <>
-      <section id="services" className="mt-8">
-        <TitleSection title={ConstantsTitles.SERVICES_TITLE} />
-        <Container>
-          <div className="grid md:grid-cols-3 gap-8">
-            <Service
-              title="consultoria"
-              text={lorem}
-              icon={<Icon name="MessagesSquare" size={55} />}
-            />
-            <Service
-              title="projeto de interiores"
-              text={lorem}
-              icon={<Icon name="PencilRuler" size={55} />}
-            />
-            <Service
-              title="levantamento"
-              text={lorem}
-              icon={<Icon name="HardHat" size={55} />}
-            />
-          </div>
-        </Container>
-      </section>
-    </>
+    <section id="services" className="mt-8">
+      <TitleSection title={ConstantsTitles.SERVICES_TITLE} />
+      <Container>
+        <div className="grid md:grid-cols-3 gap-8">
+          <Card
+            title="consultoria"
+            text={lorem}
+            icon={<Icon name="MessagesSquare" size={55} />}
+          />
+          <Card
+            title="projeto de interiores"
+            text={lorem}
+            icon={<Icon name="PencilRuler" size={55} />}
+          />
+          <Card
+            title="levantamento"
+            text={lorem}
+            icon={<Icon name="HardHat" size={55} />}
+          />
+        </div>
+      </Container>
+    </section>
   );
 }

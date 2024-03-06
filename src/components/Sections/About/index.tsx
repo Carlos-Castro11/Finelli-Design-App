@@ -1,6 +1,6 @@
 // Components
 import { ProfileRoot } from "@/components/Profile/ProfileRoot";
-import ServiceWrapper from "@/components/Service/ServiceWrapper";
+import CardWrapper from "@/components/Card/CardWrapper";
 import TitleSection from "@/components/TitleSection";
 
 // Constants
@@ -14,10 +14,10 @@ export default function About() {
     <section className="mt-8 ">
       <TitleSection title={ConstantsTitles.ABOUT_TITLE} />
       <Container>
-        <ServiceWrapper>
+        <CardWrapper>
           <ProfileRoot.Image />
           <ProfileRoot.Content />
-        </ServiceWrapper>
+        </CardWrapper>
       </Container>
     </section>
   );

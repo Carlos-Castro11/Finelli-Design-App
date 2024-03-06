@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import teste from "./public/next.svg";
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",

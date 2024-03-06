@@ -1,8 +1,8 @@
-interface ServiceWrapperProps {
+interface CardWrapperProps {
   children: React.ReactNode;
 }
 
-export default function ServiceWrapper({ children }: ServiceWrapperProps) {
+export default function CardWrapper({ children }: CardWrapperProps) {
   return (
     <div
       className={`bg-gradient-to-b from-background-color to-background-color-gradient border border-primary-color 
