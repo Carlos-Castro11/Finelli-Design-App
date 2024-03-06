@@ -4,7 +4,7 @@ export default function ProfileImage() {
     <img
       src="/images/groot.jpg"
       alt="Perfil da dona do site, Giovana Finelli"
-      className="rounded-e"
+      className="rounded-md shadow-large"
     />
   );
 }

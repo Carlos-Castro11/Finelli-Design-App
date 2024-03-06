@@ -10,7 +10,11 @@ interface CardProps {
 export default function Card({ title, text, icon }: CardProps) {
   return (
     <CardRoot.Wrapper>
-      <CardRoot.Content title={title} text={text} icon={icon} />
+      <CardRoot.Content>
+        <CardRoot.Icon icon={icon} />
+        <CardRoot.Title title={title} />
+        <CardRoot.Text text={text} />
+      </CardRoot.Content>
     </CardRoot.Wrapper>
   );
 }

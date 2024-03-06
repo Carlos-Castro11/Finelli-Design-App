@@ -11,7 +11,7 @@ function GraduationIcon() {
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="2"
-      className="lucide lucide-graduation-cap"
+      className="lucide lucide-graduation-cap text-primary-color"
       viewBox="0 0 24 24"
     >
       <path d="M21.42 10.922a1 1 0 00-.019-1.838L12.83 5.18a2 2 0 00-1.66 0L2.6 9.08a1 1 0 000 1.832l8.57 3.908a2 2 0 001.66 0zM22 10v6"></path>

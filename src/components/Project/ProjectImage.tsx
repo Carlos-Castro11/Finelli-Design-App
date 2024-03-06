@@ -1,8 +1,8 @@
-interface ProjectProps {
+interface ProjectImageProps {
   image: string;
 }
 
-export default function ProjectImage({ image }: ProjectProps) {
+export default function ProjectImage({ image }: ProjectImageProps) {
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
