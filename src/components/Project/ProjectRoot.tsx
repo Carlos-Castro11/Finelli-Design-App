@@ -1,7 +1,9 @@
 import ProjectImage from "./ProjectImage";
+import ProjectTitle from "./ProjectTitle";
 import ProjectWrapper from "./ProjectWrapper";
 
 export const ProjectRoot = {
   Image: ProjectImage,
-  Wrapper: ProjectWrapper
+  Wrapper: ProjectWrapper,
+  Title: ProjectTitle,
 };
