@@ -22,6 +22,7 @@ const config: Config = {
         "primary-color": "#294E5B",
         "secondary-color": "#ACA2A0",
         "background-color": "#FAFAFA",
+        "background-color-gradient": "rgba(200,200,200,1)",
         "body-background-color": "#D9D9D9",
         "black-banner": "rgba(0,0,0,.5)",
         transparent: "transparent",

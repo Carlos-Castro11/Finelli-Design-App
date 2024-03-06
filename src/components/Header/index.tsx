@@ -2,7 +2,7 @@
 import { HeaderRoot } from "./HeaderRoot";
 
 // Components
-import Logo from "../Logo";
+import Logo from "../assets/Logo";
 import Nav from "../Nav";
 import NavMobile from "../Nav/NavMobile";
 
