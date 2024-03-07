@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { ComponentProps } from "react";
 
-interface NavItemProps {
+interface NavItemProps extends ComponentProps<"li"> {
   text: string;
   link: string;
   isMobile?: boolean;
@@ -14,16 +15,11 @@ export default function NavItem({
   icon,
 }: NavItemProps) {
   return (
-    <li
-      className={`${
-        isMobile ? "border-b-[1px] border-bottom-primary-color flex gap-2" : ""
-      }`}
-    >
-      {isMobile ? icon : null}
+    <li className={`${isMobile ? "border-b-[1px]" : ""}`}>
       <Link
         className={`drop-shadow-sm ${
           isMobile
-            ? "text-lg"
+            ? "text-lg flex gap-2"
             : `p-0.5 relative text-base
           after:bg-primary-color after:content-[''] 
           after:absolute after:h-0.5 after:w-0 after:bottom-0.5 after:left-1/2 
@@ -32,6 +28,7 @@ export default function NavItem({
         }`}
         href={link}
       >
+        {isMobile ? icon : null}
         {text.toUpperCase()}
       </Link>
     </li>

@@ -14,6 +14,10 @@ import Icon from "@/utils/Icon";
 
 export default function NavMobile() {
   const [mobileActive, setMobileActive] = React.useState(false);
+
+  function handleClick() {
+    console.log("click");
+  }
   return (
     <>
       <NavMobileRoot.Button
@@ -23,6 +27,7 @@ export default function NavMobile() {
       {mobileActive ? (
         <NavMobileRoot.Wrapper isMobile={true}>
           <NavRoot.Item
+            onClick={() => handleClick}
             icon={<Icon name="Home" />}
             isMobile={true}
             link={ConstantsUrls.HOME_URL}
