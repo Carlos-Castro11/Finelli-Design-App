@@ -1,14 +1,26 @@
-"use client";
+// Components
+import { FooterRoot } from "./FooterRoot";
+
 // Icon
 import Icon from "@/utils/Icon";
+import Logo from "../assets/Logo";
 
 export default function Footer() {
   return (
-    <footer id="contact">
-      <h2 className="text-white h-80 bg-primary-color">FOOTER</h2>
+    <FooterRoot.Wrapper>
+      <div className="bg-primary-color">
+        <Logo primaryColor={false} />
+      </div>
       {/* Second Footer */}
-      <div className="bg-background-color p-4 shadow-inner text-xs sm:text-sm lg:text-base xl:text-lg">
-        <div className="grid grid-cols-2 divide-x divide-primary-color">
+      <div className="bg-background-color p-4 shadow-inner text-[0.8rem] sm:text-sm lg:text-base xl:text-lg">
+        <div
+          className={`grid sm:grid-cols-2 gap-5
+        relative after:absolute after:content['']
+        after:bg-gradient-to-r from-transparent via-primary-color to-transparent
+        after:h-[1px] after:w-full
+        after:left-0 after:bottom-1/2
+        `}
+        >
           <div className="flex items-center justify-center">
             <p>© 2024 Todos os direitos reservados para Giovana Finelli</p>
           </div>
@@ -22,6 +34,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </footer>
+    </FooterRoot.Wrapper>
   );
 }
