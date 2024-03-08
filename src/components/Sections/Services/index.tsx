@@ -34,9 +34,9 @@ export default function Services() {
             icon={<Icon name="PencilRuler" size={55} />}
           />
           <Card
-            title="levantamento"
+            title="Renderizações"
             text={lorem}
-            icon={<Icon name="HardHat" size={55} />}
+            icon={<Icon name="Image" size={55} />}
           />
         </div>
       </Container>

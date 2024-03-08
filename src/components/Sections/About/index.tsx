@@ -26,12 +26,7 @@ export default function About() {
             <Education
               course="Bacharel em Arquitetura"
               university="Centro Universitário FIPMOC"
-              time="4 anos"
-            />
-            <Education
-              course="Curso de Renderização"
-              university="Professor Marcos João Claiton"
-              time="36 horas"
+              time="5 anos"
             />
           </div>
         </ProfileRoot.Wrapper>
