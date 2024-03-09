@@ -22,7 +22,7 @@ export default function Services() {
     <section id="services" className="mt-8">
       <TitleSection title={ConstantsTitles.SERVICES_TITLE} />
       <Container>
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-3 gap-8">
           <Card
             title="consultoria"
             text={lorem}
