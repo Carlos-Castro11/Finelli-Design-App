@@ -28,6 +28,7 @@ const config: Config = {
         transparent: "transparent",
         white: "#FFFFFF",
         black: "#000007",
+        "light-blue": "#4a8284",
 
         // Dark Theme
         "dark-primary-color": "#000",
