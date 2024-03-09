@@ -17,7 +17,7 @@ export default function About() {
         <ProfileRoot.Wrapper>
           <ProfileRoot.Content />
           <h3 className="text-xl mb-1 text-primary-color">Formações:</h3>
-          <div className="grid gap-4">
+          <div className="grid gap-4 lg:gap-6 lg:grid-cols-2">
             <Education
               course="Bacharel em Desgin de interiores"
               university="Universidade Cesumar"
