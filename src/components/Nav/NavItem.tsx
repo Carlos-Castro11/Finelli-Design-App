@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { ComponentProps } from "react";
 
-interface NavItemProps extends ComponentProps<"li"> {
+interface NavItemProps {
   text: string;
   link: string;
   isMobile?: boolean;
   icon?: React.ReactNode;
+  onClick?: () => void;
 }
 
 export default function NavItem({
@@ -13,9 +14,10 @@ export default function NavItem({
   link,
   isMobile = false,
   icon,
+  onClick,
 }: NavItemProps) {
   return (
-    <li className={`${isMobile ? "border-b-[1px]" : ""}`}>
+    <li onClick={onClick} className={`${isMobile ? "border-b-[1px]" : ""}`}>
       <Link
         className={`drop-shadow-sm ${
           isMobile

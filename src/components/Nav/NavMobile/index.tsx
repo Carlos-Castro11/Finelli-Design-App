@@ -16,8 +16,9 @@ export default function NavMobile() {
   const [mobileActive, setMobileActive] = React.useState(false);
 
   function handleClick() {
-    console.log("click");
+    setMobileActive(false);
   }
+
   return (
     <>
       <NavMobileRoot.Button
@@ -27,31 +28,35 @@ export default function NavMobile() {
       {mobileActive ? (
         <NavMobileRoot.Wrapper isMobile={true}>
           <NavRoot.Item
-            onClick={() => handleClick}
+            onClick={handleClick}
             icon={<Icon name="Home" />}
             isMobile={true}
             link={ConstantsUrls.HOME_URL}
             text={ConstantsTitles.HOME_TITLE}
           />
           <NavRoot.Item
+            onClick={handleClick}
             icon={<Icon name="Book" />}
             isMobile={true}
             link={ConstantsUrls.PROJECTS_URL}
             text={ConstantsTitles.PROJECTS_TITLE}
           />
           <NavRoot.Item
+            onClick={handleClick}
             icon={<Icon name="PencilLine" />}
             isMobile={true}
             link={ConstantsUrls.SERVICES_URL}
             text={ConstantsTitles.SERVICES_TITLE}
           />
           <NavRoot.Item
+            onClick={handleClick}
             icon={<Icon name="Heart" />}
             isMobile={true}
             link={ConstantsUrls.ABOUT_URL}
             text={ConstantsTitles.ABOUT_TITLE}
           />
           <NavRoot.Item
+            onClick={handleClick}
             icon={<Icon name="User" />}
             isMobile={true}
             link={ConstantsUrls.CONTACT_URL}
