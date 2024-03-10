@@ -5,7 +5,7 @@ interface SliderWrapperProps {
 
 export default function SliderWrapper({ children }: SliderWrapperProps) {
   return (
-    <div className="lg:px-7 lg:pt-1 lg:mt-5 lg:bg-background-color lg:shadow-inner-md lg:rounded md:mb-24">
+    <div className="px-7 pt-7 mt-5 bg-background-color shadow-inner-md rounded">
       {children}
     </div>
   );

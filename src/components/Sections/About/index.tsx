@@ -11,7 +11,7 @@ import Education from "@/components/Education";
 
 export default function About() {
   return (
-    <section className="my-8">
+    <section id="about">
       <TitleSection title={ConstantsTitles.ABOUT_TITLE} />
       <Container>
         <ProfileRoot.Wrapper>

@@ -11,7 +11,10 @@ import Container from "@/utils/Container";
 export default function Projects() {
   return (
     <section id="projects">
-      <TitleSection title={ConstantsTitles.PROJECTS_TITLE} />
+      <TitleSection
+        title={ConstantsTitles.PROJECTS_TITLE}
+        firstSection={true}
+      />
       <Container>
         <div
           className={`
@@ -23,8 +26,9 @@ export default function Projects() {
           <Project image="spider-man.jpg" projectTitle="spider-man" />
           <Project image="iron-man.jpg" projectTitle="iron-man" />
           <Project image="groot.jpg" projectTitle="groot" />
-          <Project image="spider-man.jpg" projectTitle="banheiro" />
           <Project image="iron-man.jpg" projectTitle="quarto de bebê" />
+          <Project image="ferrari.jpg" projectTitle="quarto de casal" />
+          <Project image="spider-man.jpg" projectTitle="banheiro" />
         </div>
       </Container>
     </section>

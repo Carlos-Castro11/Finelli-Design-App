@@ -19,17 +19,17 @@ export default function Services() {
   vitae excepturi veritatis alias fuga nemo natus. 
   Reprehenderit odit excepturi cupiditate id! Ab placeat provident eos qui?  eos qui?`;
   return (
-    <section id="services" className="mt-8">
+    <section id="services">
       <TitleSection title={ConstantsTitles.SERVICES_TITLE} />
       <Container>
         <div className="grid lg:grid-cols-3 gap-8">
           <Card
-            title="consultoria"
+            title="consultorias"
             text={lorem}
             icon={<Icon name="MessagesSquare" size={55} />}
           />
           <Card
-            title="projeto de interiores"
+            title="projetos de interiores"
             text={lorem}
             icon={<Icon name="PencilRuler" size={55} />}
           />
