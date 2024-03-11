@@ -26,7 +26,7 @@ export default function NavMobile() {
         isMenuMobileActive={mobileActive}
       />
       {mobileActive ? (
-        <NavMobileRoot.Wrapper isMobile={true}>
+        <NavMobileRoot.Wrapper>
           <NavRoot.Item
             onClick={handleClick}
             icon={<Icon name="Home" />}

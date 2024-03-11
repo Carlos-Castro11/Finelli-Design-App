@@ -1,14 +1,14 @@
-interface NavWrapperProps {
+interface NavMobileWrapperProps {
   children: React.ReactNode;
-  isMobile?: boolean;
 }
 
-export default function NavMobileWrapper({ children }: NavWrapperProps) {
+export default function NavMobileWrapper({ children }: NavMobileWrapperProps) {
   return (
     <ul
       className={`
-        p-4 grid gap-3 fixed right-[.5%] top-[11%] bg-background-color 
-        border border-primary-color shadow-md  rounded-md animeRight z-50
+        p-4 grid gap-3 fixed left-0 top-[13%] bg-background-color w-full
+        border border-primary-color shadow-md  rounded-md z-50
+        animeRight
         `}
     >
       {children}
