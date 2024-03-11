@@ -27,7 +27,7 @@ span.swiper-pagination-bullet {
   border-radius: 0px;
   opacity: 0.7;
   border-radius: 1.5px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /* Slider all bullets position */
