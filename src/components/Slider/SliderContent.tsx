@@ -30,6 +30,7 @@ export default function SliderContent({
 
   return (
     <Swiper
+      className=""
       slidesPerView={slidesPerView}
       loop={true}
       modules={[Navigation, Pagination, Autoplay, A11y]}
@@ -47,7 +48,7 @@ export default function SliderContent({
             <img
               src={src}
               alt="Imagem de um projeto de interiores"
-              className="shadow-large"
+              className="shadow-large lg:rounded-md"
             />
           </div>
         </SwiperSlide>

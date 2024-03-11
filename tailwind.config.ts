@@ -24,7 +24,7 @@ const config: Config = {
         "background-color": "#FAFAFA",
         "background-color-gradient": "rgba(200,200,200,1)",
         "body-background-color": "#D9D9D9",
-        "black-banner": "rgba(0,0,0,.5)",
+        "black-banner": "rgba(0,0,0,.65)",
         transparent: "transparent",
         white: "#FFFFFF",
         black: "#000007",
