@@ -30,10 +30,3 @@ export const ConstantsUrls: ConstantsUrlsTypes = {
   SERVICES_URL: "#services",
   CONTACT_URL: "#contact",
 };
-
-// Slider Images
-export const SliderImagesUrls = [
-  "/images/spider-man.jpg",
-  "/images/iron-man.jpg",
-  "/images/groot.jpg",
-];

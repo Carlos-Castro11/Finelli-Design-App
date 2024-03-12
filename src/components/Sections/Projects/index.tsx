@@ -8,6 +8,9 @@ import TitleSection from "@/components/TitleSection";
 // Utils
 import Container from "@/utils/Container";
 
+// Data
+import { ProjectsData } from "@/Database/Projects";
+
 export default function Projects() {
   return (
     <section id="projects">
@@ -23,12 +26,13 @@ export default function Projects() {
         lg:grid-cols-3
         `}
         >
-          <Project image="spider-man.jpg" projectTitle="spider-man" />
-          <Project image="iron-man.jpg" projectTitle="iron-man" />
-          <Project image="groot.jpg" projectTitle="groot" />
-          <Project image="iron-man.jpg" projectTitle="quarto de bebê" />
-          <Project image="ferrari.jpg" projectTitle="quarto de casal" />
-          <Project image="spider-man.jpg" projectTitle="banheiro" />
+          {ProjectsData.map((item) => (
+            <Project
+              key={item.id}
+              image={item.image}
+              projectTitle={item.title}
+            />
+          ))}
         </div>
       </Container>
     </section>

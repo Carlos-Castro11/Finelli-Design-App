@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 import { A11y, Navigation, Pagination, Autoplay } from "swiper/modules";
 
 // Slider Images
-import { SliderImagesUrls } from "@/constants";
+import { SliderImagesUrls } from "@/Database/Slider";
 import SliderButton from "./SliderButton";
 
 // Icons
@@ -54,6 +54,7 @@ export default function SliderContent({
         </SwiperSlide>
       ))}
       <SliderButton
+        backButton={true}
         customStyle={"left-1"}
         icon={<Icon name="ChevronLeftCircle" size={mobile ? undefined : 40} />}
       />
