@@ -15,4 +15,9 @@ export const ProjectsData: ProjectsDataProps[] = [
     title: "Quarto de casal",
     image: "iron-man.jpg",
   },
+  {
+    id: 3,
+    title: "Banheiro",
+    image: "groot.jpg",
+  },
 ];
