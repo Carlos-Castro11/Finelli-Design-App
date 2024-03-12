@@ -4,7 +4,7 @@ interface FooterWrapper {
 
 export default function FooterWrapper({ children }: FooterWrapper) {
   return (
-    <footer id="contact" className="shadow-large">
+    <footer id="contact" className="shadow-large mt-8">
       {children}
     </footer>
   );
