@@ -26,11 +26,11 @@ export default function Projects() {
         lg:grid-cols-3
         `}
         >
-          {ProjectsData.map((item) => (
+          {ProjectsData.map((project) => (
             <Project
-              key={item.id}
-              image={item.image}
-              projectTitle={item.title}
+              key={project.id}
+              image={project.image}
+              projectTitle={project.title}
             />
           ))}
         </div>

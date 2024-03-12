@@ -9,6 +9,9 @@ import { ConstantsTitles } from "@/constants";
 import Container from "@/utils/Container";
 import Education from "@/components/Education";
 
+// Data
+import { EducationData } from "@/Database/Profile";
+
 export default function About() {
   return (
     <section id="about">
@@ -18,16 +21,14 @@ export default function About() {
           <ProfileRoot.Content />
           <h3 className="text-xl mb-1 text-primary-color">Formações:</h3>
           <div className="grid gap-4 lg:gap-6 lg:grid-cols-2">
-            <Education
-              course="Bacharel em Desgin de interiores"
-              university="Universidade Cesumar"
-              time="2 anos"
-            />
-            <Education
-              course="Bacharel em Arquitetura"
-              university="Centro Universitário FIPMOC"
-              time="5 anos"
-            />
+            {EducationData.map((education) => (
+              <Education
+                key={education.id}
+                course={education.course}
+                university={education.university}
+                time={education.duration}
+              />
+            ))}
           </div>
         </ProfileRoot.Wrapper>
       </Container>
