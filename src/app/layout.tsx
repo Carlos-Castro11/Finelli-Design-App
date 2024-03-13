@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 
 // Fonts
 import { Inter } from "next/font/google";
+import ToTopButton from "@/components/ToTopButton";
 const font = Inter({
   subsets: ["latin"],
   weight: ["400"],
@@ -26,6 +27,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className={`${font.className} bg-body-background-color h-screen`}>
         <Header />
+        <ToTopButton />
         {children}
         <Footer />
       </body>
