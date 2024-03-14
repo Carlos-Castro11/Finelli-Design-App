@@ -32,7 +32,7 @@ export default function NavMobile() {
         isMenuMobileActive={mobileActive}
       />
       {mobileActive ? (
-        <NavMobileRoot.Wrapper mobileActive={mobileActive}>
+        <NavMobileRoot.Wrapper>
           <NavRoot.Item
             onClick={removeNavMobileWhenScroll}
             icon={<Icon name="Home" />}

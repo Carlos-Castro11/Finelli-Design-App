@@ -13,7 +13,7 @@ export default function WppButton() {
         target="_blank"
         href={"https://wa.me/5538998695145"}
         className={`fixed bottom-[2%] p-1 rounded-full border-2 border-light-blue bg-primary-color left-[2%] z-50 
-        cursor-pointer transition-all duration-300 ease-in-out animeLeft
+        cursor-pointer transition-all duration-300 ease-in-out animeLeft shadow-large
         `}
       >
         <div className="text-background-color">

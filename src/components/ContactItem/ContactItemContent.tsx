@@ -12,9 +12,9 @@ export default function ContactItemContent({
   icon,
 }: ContactItemContentProps) {
   return (
-    <div className="flex gap-3 px-2 py-1 text-primary-color">
+    <Link href={""} className="flex gap-3 px-2 py-1 text-primary-color">
       <Icon name={icon} />
       <p>{linkText}</p>
-    </div>
+    </Link>
   );
 }
