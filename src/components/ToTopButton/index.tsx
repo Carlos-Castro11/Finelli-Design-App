@@ -31,9 +31,9 @@ const ToTopButton = () => {
   return (
     <>
       <div
-        className={`fixed bottom-[2%] p-3 rounded-full shadow-inner-md bg-background-color right-3 sm:right-[9%] z-10 cursor-pointer
+        className={`fixed bottom-[2%] p-3 rounded-full shadow-inner-md bg-background-color right-[3%] z-10 cursor-pointer
         opacity-0 transform translate-x-10 transition-all duration-300 ease-in-out
-        ${isVisible && "opacity-100 -translate-x-0"}
+        ${isVisible && "opacity-100 translate-x-0"}
         `}
         onClick={goToBtn}
       >
