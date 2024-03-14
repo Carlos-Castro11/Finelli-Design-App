@@ -13,7 +13,7 @@ export default function ProfileContent() {
       </div>
       <div className="flex flex-col gap-2 lg:gap-5">
         <CardRoot.Title title={ProfileData.title} />
-        <p>{ProfileData.text}</p>
+        <p className="text-gray-700">{ProfileData.text}</p>
       </div>
     </div>
   );

@@ -3,17 +3,13 @@
 import React from "react";
 import ArrowUpIcon from "../assets/ArrowUp";
 
-// Context
-//import { PopUpContext } from "../../PopUpContext";
-
-const ToTopButton = () => {
+export default function ToTopButton() {
   const [isVisible, setIsVisible] = React.useState(false);
-  //const { footerVisible } = React.useContext(PopUpContext);
-  const goToBtn = () => {
+  const goToTop = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
 
-  const listenToScroll = () => {
+  const isToShowButton = () => {
     let heightToHidden = 250;
     const winScroll =
       document.body.scrollTop || document.documentElement.scrollTop;
@@ -25,17 +21,20 @@ const ToTopButton = () => {
   };
 
   React.useEffect(() => {
-    window.addEventListener("scroll", listenToScroll);
+    window.addEventListener("scroll", isToShowButton);
+    return () => {
+      window.removeEventListener("scroll", isToShowButton);
+    };
   }, []);
 
   return (
     <>
       <div
-        className={`fixed bottom-[2%] p-3 rounded-full shadow-inner-md bg-background-color right-[3%] z-10 cursor-pointer
-        opacity-0 transform translate-x-10 transition-all duration-300 ease-in-out
-        ${isVisible && "opacity-100 translate-x-0"}
+        className={`fixed bottom-[2%] p-3 rounded-full shadow-inner-md bg-background-color right-[2%] z-10 cursor-pointer
+        opacity-0 transition-all duration-300 ease-in-out
+        ${isVisible && "opacity-100"}
         `}
-        onClick={goToBtn}
+        onClick={goToTop}
       >
         <div className="text-primary-color animate-bounce">
           <ArrowUpIcon />
@@ -43,6 +42,4 @@ const ToTopButton = () => {
       </div>
     </>
   );
-};
-
-export default ToTopButton;
+}
