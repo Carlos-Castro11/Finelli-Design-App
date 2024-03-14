@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 
 interface ContactItemWrapperProps {
@@ -10,15 +11,16 @@ export default function ContactItemWrapper({
   link,
 }: ContactItemWrapperProps) {
   return (
-    <Link href={link}>
-      <div
+    <>
+      <Link
+        href={link}
         className={`
     bg-background-color rounded-md border-2 border-light-blue
     sm:hover:bg-body-background-color
     `}
       >
         {children}
-      </div>
-    </Link>
+      </Link>
+    </>
   );
 }

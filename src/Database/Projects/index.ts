@@ -8,7 +8,7 @@ export const ProjectsData: ProjectsDataProps[] = [
   {
     id: 1,
     title: "Quarto de bebê",
-    image: "spider-man.jpg",
+    image: "/slider/slide4.jpg",
   },
   {
     id: 2,

@@ -1,7 +1,7 @@
 // Slider Images
 export const SliderImagesUrls = [
-  "/images/spider-man.jpg",
-  "/images/iron-man.jpg",
-  "/images/groot.jpg",
-  "/images/ferrari.jpg",
+  "/images/slider/slide1.jpg",
+  "/images/slider/slide2.jpg",
+  "/images/slider/slide3.jpg",
+  "/images/slider/slide1.jpg",
 ];
