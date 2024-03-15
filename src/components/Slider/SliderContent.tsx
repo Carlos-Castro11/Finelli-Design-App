@@ -42,13 +42,13 @@ export default function SliderContent({
       }}
     >
       {SliderImagesUrls.map((src) => (
-        <SwiperSlide key={src} className="mb-7">
-          <div className="relative group">
+        <SwiperSlide key={src} className="mb-8">
+          <div className="relative group rounded-md shadow-large">
             {/*eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={src}
               alt="Imagem de um projeto de interiores"
-              className="shadow-large lg:rounded-md"
+              className="shadow-large md:rounded-md"
             />
           </div>
         </SwiperSlide>

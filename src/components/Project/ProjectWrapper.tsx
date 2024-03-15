@@ -1,14 +1,18 @@
+import Link from "next/link";
+
 interface ProjectWrapper {
   children: React.ReactNode;
+  link: string;
 }
 
-export default function ProjectWrapper({ children }: ProjectWrapper) {
+export default function ProjectWrapper({ children, link }: ProjectWrapper) {
   function handleClick() {
     console.log("click");
   }
 
   return (
-    <div
+    <Link
+      href={link}
       onClick={handleClick}
       className={`relative cursor-pointer
         after:content[''] after:h-full after:w-full after:absolute after:left-0 after:bottom-0
@@ -18,6 +22,6 @@ export default function ProjectWrapper({ children }: ProjectWrapper) {
         `}
     >
       {children}
-    </div>
+    </Link>
   );
 }

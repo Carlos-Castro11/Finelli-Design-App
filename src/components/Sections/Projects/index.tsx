@@ -31,6 +31,7 @@ export default function Projects() {
               key={project.id}
               image={project.image}
               projectTitle={project.title}
+              link={project.link}
             />
           ))}
         </div>
