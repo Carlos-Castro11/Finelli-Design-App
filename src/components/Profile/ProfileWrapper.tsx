@@ -6,7 +6,7 @@ export default function ProfileWrapper({ children }: ProfileWrapper) {
   return (
     <div
       className={`
-    bg-background-color p-4 rounded-md shadow-large
+      mt-8
     `}
     >
       {children}

@@ -14,7 +14,6 @@ const config: Config = {
         sm: "1rem",
         lg: "2rem",
         xl: "3rem",
-        "2xl": "4rem",
       },
     },
     extend: {
@@ -23,7 +22,7 @@ const config: Config = {
         "secondary-color": "#ACA2A0",
         "background-color": "#FAFAFA",
         "background-color-gradient": "rgba(200,200,200,1)",
-        "body-background-color": "#D9D9D9",
+        "body-background-color": "#FFFAFA",
         "black-banner": "rgba(0,0,0,.65)",
         "light-blue": "#4a8284",
         transparent: "transparent",

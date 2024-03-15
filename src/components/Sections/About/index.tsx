@@ -14,7 +14,7 @@ import { EducationData } from "@/Database/Profile";
 
 export default function About() {
   return (
-    <section id="about">
+    <section id="about" className="mt-4">
       <TitleSection title={ConstantsTitles.ABOUT_TITLE} />
       <Container>
         <ProfileRoot.Wrapper>

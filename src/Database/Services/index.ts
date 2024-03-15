@@ -3,6 +3,7 @@ interface ServicesDataProps {
   iconName: string;
   title: string;
   text: string;
+  isMiddleCard: boolean;
 }
 
 export const ServicesData: ServicesDataProps[] = [
@@ -16,6 +17,7 @@ export const ServicesData: ServicesDataProps[] = [
     voluptatem vitae excepturi veritatis alias fuga nemo natus. Reprehenderit odit excepturi cupiditate id! Ab placeat 
     provident eos qui? luptatem vitae excepturi veritatis alias fuga nemo natus. Reprehenderit odit excepturi 
     cupiditate id! Ab placeat provident eos qui? eos qui?`,
+    isMiddleCard: false,
   },
   {
     id: 2,
@@ -27,6 +29,7 @@ export const ServicesData: ServicesDataProps[] = [
     voluptatem vitae excepturi veritatis alias fuga nemo natus. Reprehenderit odit excepturi cupiditate id! Ab placeat 
     provident eos qui? luptatem vitae excepturi veritatis alias fuga nemo natus. Reprehenderit odit excepturi 
     cupiditate id! Ab placeat provident eos qui? eos qui?`,
+    isMiddleCard: true,
   },
   {
     id: 3,
@@ -38,5 +41,6 @@ export const ServicesData: ServicesDataProps[] = [
     voluptatem vitae excepturi veritatis alias fuga nemo natus. Reprehenderit odit excepturi cupiditate id! Ab placeat 
     provident eos qui? luptatem vitae excepturi veritatis alias fuga nemo natus. Reprehenderit odit excepturi 
     cupiditate id! Ab placeat provident eos qui? eos qui?`,
+    isMiddleCard: false,
   },
 ];

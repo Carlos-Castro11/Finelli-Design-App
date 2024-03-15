@@ -5,11 +5,12 @@ interface CardProps {
   title: string;
   text: string;
   icon: React.ReactNode;
+  isMiddleCard: boolean;
 }
 
-export default function Card({ title, text, icon }: CardProps) {
+export default function Card({ title, text, icon, isMiddleCard }: CardProps) {
   return (
-    <CardRoot.Wrapper>
+    <CardRoot.Wrapper isMiddleCard={isMiddleCard}>
       <CardRoot.Content>
         <CardRoot.Icon icon={icon} />
         <CardRoot.Title title={title} />

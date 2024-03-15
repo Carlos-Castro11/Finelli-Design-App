@@ -14,12 +14,13 @@ import { ServicesData } from "@/Database/Services";
 
 export default function Services() {
   return (
-    <section id="services">
+    <section id="services" className="mt-8">
       <TitleSection title={ConstantsTitles.SERVICES_TITLE} />
       <Container>
         <div className="grid lg:grid-cols-3 gap-8">
           {ServicesData.map((card) => (
             <Card
+              isMiddleCard={card.isMiddleCard}
               key={card.id}
               title={card.title}
               text={card.text}

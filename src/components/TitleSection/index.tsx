@@ -10,7 +10,7 @@ export default function TitleSection({
   return (
     <div
       className={`pointer-events-none ${
-        firstSection ? "mt-1" : "my-8"
+        firstSection ? "mt-1" : "my-0"
       } shadow-large animeLeft bg-primary-color 
     border-t-2 border-b-2 border-t-white border-b-white flex items-ceter justify-center p-5`}
     >
