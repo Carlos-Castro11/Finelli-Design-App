@@ -12,7 +12,7 @@ export default function Slider() {
   const screenWidth = useMedia("(max-width: 1100px)");
 
   return (
-    <div className="mt-8">
+    <div className="lg:mt-8">
       {screenWidth ? (
         <SliderRoot.Content />
       ) : (
