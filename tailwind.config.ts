@@ -25,10 +25,10 @@ const config: Config = {
         "background-color-gradient": "rgba(200,200,200,1)",
         "body-background-color": "#D9D9D9",
         "black-banner": "rgba(0,0,0,.65)",
+        "light-blue": "#4a8284",
         transparent: "transparent",
         white: "#FFFFFF",
         black: "#000007",
-        "light-blue": "#4a8284",
 
         // Dark Theme
         "dark-primary-color": "#000",
