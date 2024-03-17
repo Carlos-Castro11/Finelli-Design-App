@@ -5,8 +5,8 @@ interface EducationWrapper {
 export default function EducationWrapper({ children }: EducationWrapper) {
   return (
     <div
-      className={`bg-background-color border border-light-blue 
-      rounded p-2 shadow`}
+      className={`border border-light-blue 
+      rounded p-2 shadow-md`}
     >
       {children}
     </div>

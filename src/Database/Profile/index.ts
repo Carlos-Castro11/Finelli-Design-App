@@ -5,7 +5,7 @@ interface ProfileDataProps {
 }
 
 export const ProfileData: ProfileDataProps = {
-  image: "groot.jpg",
+  image: "Kitchen/Kitchen-1.jpg",
   title: "Giovana finelli",
   text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, non quibusdam 
     vel voluptatem vitae excepturi veritatis alias fuga nemo natus. Reprehenderit odit excepturi 
@@ -25,13 +25,13 @@ interface EducationDataProps {
 export const EducationData: EducationDataProps[] = [
   {
     id: 1,
-    course: "Bachareal em Arquitetura",
+    course: "Bacharel em Arquitetura",
     university: "Centro Universitário FIPMOC",
     duration: "5 anos",
   },
   {
     id: 2,
-    course: "Bachareal em Design de Interiores",
+    course: "Bacharel em Design de Interiores",
     university: "Universidade Cesumar",
     duration: "2 anos",
   },

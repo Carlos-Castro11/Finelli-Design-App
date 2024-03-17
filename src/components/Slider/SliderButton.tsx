@@ -17,7 +17,7 @@ export default function SliderButton({
   return (
     <div className={`flex top-[40%] lg:top-[45%] absolute ${customStyle}`}>
       <button
-        className="z-50 cursor-pointer bg-background-color rounded shadow text-primary-color p-1.5"
+        className="z-50 cursor-pointer bg-background-color rounded-full shadow text-primary-color "
         onClick={
           backButton ? () => swiper.slidePrev() : () => swiper.slideNext()
         }
