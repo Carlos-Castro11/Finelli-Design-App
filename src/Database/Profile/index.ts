@@ -5,7 +5,7 @@ interface ProfileDataProps {
 }
 
 export const ProfileData: ProfileDataProps = {
-  image: "Kitchen/Kitchen-1.jpg",
+  image: "/perfil.jpg",
   title: "Giovana finelli",
   text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, non quibusdam 
     vel voluptatem vitae excepturi veritatis alias fuga nemo natus. Reprehenderit odit excepturi 

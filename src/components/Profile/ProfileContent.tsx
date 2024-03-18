@@ -7,11 +7,9 @@ import { ProfileRoot } from "./ProfileRoot";
 
 export default function ProfileContent() {
   return (
-    <div className="grid gap-4 mb-4 lg:grid-cols-2 lg:gap-7">
-      <div className="flex place-content-center">
-        <ProfileRoot.Image image={ProfileData.image} />
-      </div>
-      <div className="flex flex-col gap-2 lg:gap-5">
+    <div className="flex flex-col lg:flex-row gap-5 mb-5 items-center">
+      <ProfileRoot.Image image={ProfileData.image} />
+      <div className="flex flex-col gap-1 xl:gap-2 text-center lg:text-start">
         <CardRoot.Title title={ProfileData.title} />
         <p className="text-primary-color">{ProfileData.text}</p>
       </div>

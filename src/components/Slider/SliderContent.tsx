@@ -38,7 +38,7 @@ export default function SliderContent({
         clickable: true,
       }}
       autoplay={{
-        delay: 4000,
+        delay: 6000,
       }}
     >
       {SliderImagesUrls.map((src) => (

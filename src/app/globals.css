@@ -14,21 +14,21 @@
 span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #294e5b;
   opacity: 1;
-  height: 20px;
-  width: 20px;
+  width: 15px;
+  height: 15px;
   border: 1px solid white;
   box-shadow: 0px 0px 2px black;
 }
 
 /* Slider all bullets */
 span.swiper-pagination-bullet {
-  background-color: #aca2a0;
-  width: 15px;
-  height: 15px;
+  background-color: #4a8284;
+  width: 10px;
+  height: 10px;
   border-radius: 0px;
   opacity: 0.7;
   border-radius: 50%;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 /* Slider all bullets position */
