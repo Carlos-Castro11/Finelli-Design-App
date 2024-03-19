@@ -21,8 +21,7 @@ export default function Projects() {
       <Container>
         <div
           className={`
-        mt-9 grid grid-cols-1 gap-10
-        sm:grid-cols-2
+        mt-9 grid grid-cols-2 gap-x-5 gap-y-10
         lg:grid-cols-3
         `}
         >

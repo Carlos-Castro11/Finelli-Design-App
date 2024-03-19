@@ -6,7 +6,7 @@ export default function ProfileWrapper({ children }: ProfileWrapper) {
   return (
     <div
       className={`
-      mt-8
+      mt-8 lg:w-[80%] lg:mx-auto
     `}
     >
       {children}

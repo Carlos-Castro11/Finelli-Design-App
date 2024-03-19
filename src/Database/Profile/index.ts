@@ -11,8 +11,7 @@ export const ProfileData: ProfileDataProps = {
     vel voluptatem vitae excepturi veritatis alias fuga nemo natus. Reprehenderit odit excepturi 
     cupiditate id! Ab placeat provident eos qui? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Voluptate, non quibusdam vel voluptatem vitae excepturi veritatis alias fuga nemo natus. Reprehenderit 
-    odit excepturi cupiditate id! Ab placeat provident eos qui? luptatem vitae excepturi veritatis alias 
-    fuga nemo natus. Reprehenderit odit excepturi cupiditate id! Ab placeat provident eos qui? eos qui?`,
+    odit excepturi cupiditate id!`,
 };
 
 interface EducationDataProps {
