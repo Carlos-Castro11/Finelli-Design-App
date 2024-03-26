@@ -1,11 +1,11 @@
 interface CardWrapperProps {
   children: React.ReactNode;
-  isMiddleCard: boolean;
+  isMiddleCard?: boolean;
 }
 
 export default function CardWrapper({
   children,
-  isMiddleCard,
+  isMiddleCard = false,
 }: CardWrapperProps) {
   return (
     <div

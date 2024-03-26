@@ -30,7 +30,7 @@ export default function ToTopButton() {
   return (
     <>
       <div
-        className={`fixed bottom-[2%] p-3 rounded-full shadow-inner-md bg-background-color right-[2%] z-10 cursor-pointer
+        className={`fixed bottom-[2%] p-3 rounded-full shadow-inner-md bg-background-color left-[2%] z-10 cursor-pointer
         opacity-0 transition-all duration-300 ease-in-out
         ${isVisible && "opacity-100"}
         `}

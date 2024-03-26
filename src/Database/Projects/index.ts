@@ -31,10 +31,4 @@ export const ProjectsData: ProjectsDataProps[] = [
     image: "/Kitchen/Kitchen-5.jpg",
     link: "/project/4",
   },
-  {
-    id: 5,
-    title: "Quarto de bebê",
-    image: "/GirlRoom/Quarto-menina-1.jpg",
-    link: "/project/5",
-  },
 ];

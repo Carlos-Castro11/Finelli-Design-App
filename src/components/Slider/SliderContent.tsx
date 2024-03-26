@@ -53,11 +53,11 @@ export default function SliderContent({
       ))}
       <SliderButton
         backButton={true}
-        customStyle={"left-1"}
+        customStyle={"left-3"}
         icon={<Icon name="ChevronLeft" size={mobile ? undefined : 40} />}
       />
       <SliderButton
-        customStyle={"right-1"}
+        customStyle={"right-3"}
         icon={<Icon name="ChevronRight" size={mobile ? undefined : 40} />}
       />
     </Swiper>
