@@ -33,7 +33,7 @@ export default function Page({ params }: { params: { id: string } }) {
               {Number(params.id) == project.id ? (
                 <>
                   <h1>{project.title}</h1>
-                  <img src={`/images${project.image}`} alt="" />
+                  <img src={`/images${project.image_cover}`} alt="" />
                 </>
               ) : null}
             </main>
