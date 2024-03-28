@@ -26,6 +26,9 @@ export default function Nav() {
       <NavRoot.Item
         link={ConstantsUrls.CONTACT_URL}
         text={ConstantsTitles.CONTACT_TITLE}
+        style={`bg-primary-color text-white p-2 rounded-md shadow after:invisible
+        hover:bg-background-color hover:text-primary-color transition-all duration-200
+        `}
       />
     </NavRoot.Wrapper>
   );

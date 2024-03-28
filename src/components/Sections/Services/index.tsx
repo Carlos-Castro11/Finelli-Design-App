@@ -17,10 +17,10 @@ export default function Services() {
     <section id="services" className="mt-8">
       <TitleSection title={ConstantsTitles.SERVICES_TITLE} />
       <Container>
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-3 gap-8 p-1 lg:p-10">
           {ServicesData.map((card) => (
             <Card
-              isMiddleCard={card.isMiddleCard}
+              isMiddleCard={card.isMiddleCard ? card.isMiddleCard : false}
               key={card.id}
               title={card.title}
               text={card.text}

@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { ComponentProps } from "react";
 
 interface NavItemProps {
   text: string;
@@ -7,6 +6,7 @@ interface NavItemProps {
   isMobile?: boolean;
   icon?: React.ReactNode;
   onClick?: () => void;
+  style?: string;
 }
 
 export default function NavItem({
@@ -15,6 +15,7 @@ export default function NavItem({
   isMobile = false,
   icon,
   onClick,
+  style,
 }: NavItemProps) {
   return (
     <li onClick={onClick} className={`${isMobile ? "border-b-[1px]" : ""}`}>
@@ -26,7 +27,7 @@ export default function NavItem({
           after:bg-primary-color after:content-[''] 
           after:absolute after:h-0.5 after:w-0 after:bottom-[1px] after:left-1/2 
           after:duration-300 after:ease-in-out after:translate-x-[-50%]
-          hover:after:w-full`
+          hover:after:w-full ${style}`
         }`}
         href={link}
       >

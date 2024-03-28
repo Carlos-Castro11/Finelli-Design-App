@@ -8,7 +8,7 @@ export default function ProfileImage({ image }: ProfileImageProps) {
     <img
       src={`/images/${image}`}
       alt="Perfil da dona do site, Giovana Finelli"
-      className="shadow-large rounded-full sm:w-[30%] w-[50%] lg:w-[20%] 2xl:w-[13%]"
+      className="shadow-large rounded-lg sm:w-[30%] w-[50%] lg:w-[20%] 2xl:w-[13%]"
     />
   );
 }

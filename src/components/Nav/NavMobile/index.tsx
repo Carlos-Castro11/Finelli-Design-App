@@ -15,13 +15,13 @@ export default function NavMobile() {
   const [mobileActive, setMobileActive] = React.useState(false);
 
   React.useEffect(() => {
-    window.addEventListener("scroll", removeNavMobileWhenScroll);
+    window.addEventListener("scroll", RemoveNavMobile);
     return () => {
-      window.removeEventListener("scroll", removeNavMobileWhenScroll);
+      window.removeEventListener("scroll", RemoveNavMobile);
     };
   }, []);
 
-  function removeNavMobileWhenScroll() {
+  function RemoveNavMobile() {
     setMobileActive(false);
   }
 
@@ -34,35 +34,35 @@ export default function NavMobile() {
       {mobileActive ? (
         <NavMobileRoot.Wrapper>
           <NavRoot.Item
-            onClick={removeNavMobileWhenScroll}
+            onClick={RemoveNavMobile}
             icon={<Icon name="Home" />}
             isMobile={true}
             link={ConstantsUrls.HOME_URL}
             text={ConstantsTitles.HOME_TITLE}
           />
           <NavRoot.Item
-            onClick={removeNavMobileWhenScroll}
+            onClick={RemoveNavMobile}
             icon={<Icon name="Book" />}
             isMobile={true}
             link={ConstantsUrls.PROJECTS_URL}
             text={ConstantsTitles.PROJECTS_TITLE}
           />
           <NavRoot.Item
-            onClick={removeNavMobileWhenScroll}
+            onClick={RemoveNavMobile}
             icon={<Icon name="PencilLine" />}
             isMobile={true}
             link={ConstantsUrls.SERVICES_URL}
             text={ConstantsTitles.SERVICES_TITLE}
           />
           <NavRoot.Item
-            onClick={removeNavMobileWhenScroll}
+            onClick={RemoveNavMobile}
             icon={<Icon name="Heart" />}
             isMobile={true}
             link={ConstantsUrls.ABOUT_URL}
             text={ConstantsTitles.ABOUT_TITLE}
           />
           <NavRoot.Item
-            onClick={removeNavMobileWhenScroll}
+            onClick={RemoveNavMobile}
             icon={<Icon name="User" />}
             isMobile={true}
             link={ConstantsUrls.CONTACT_URL}

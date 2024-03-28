@@ -18,7 +18,6 @@ export const ProjectsData: ProjectsDataProps[] = [
     image: "/Office/Office-1.jpg",
     link: "/project/2",
   },
-
   {
     id: 3,
     title: "Quarto gamer",
@@ -30,5 +29,17 @@ export const ProjectsData: ProjectsDataProps[] = [
     title: "Cozinha",
     image: "/Kitchen/Kitchen-5.jpg",
     link: "/project/4",
+  },
+  {
+    id: 5,
+    title: "Escritório",
+    image: "/Office/Office-1.jpg",
+    link: "/project/2",
+  },
+  {
+    id: 6,
+    title: "Quarto de casal",
+    image: "/CoupleRoom/Room-1.jpg",
+    link: `/project/1`,
   },
 ];
