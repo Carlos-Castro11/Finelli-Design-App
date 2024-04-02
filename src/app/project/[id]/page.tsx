@@ -6,6 +6,12 @@ import { useRouter } from "next/navigation";
 // Data
 import { ProjectsData } from "@/Database/Projects";
 
+// Components
+import TitleSection from "@/components/TitleSection";
+import ProjectImage from "@/components/Project/ProjectImage";
+import CardTitle from "@/components/Card/CardTitle";
+import UniqueProject from "@/components/Sections/UniqueProject";
+
 export default function Page({ params }: { params: { id: string } }) {
   const router = useRouter();
 
@@ -29,11 +35,10 @@ export default function Page({ params }: { params: { id: string } }) {
       ) : (
         <>
           {ProjectsData.map((project) => (
-            <main className="" key={project.id}>
+            <main className="mt-0" key={project.id}>
               {Number(params.id) == project.id ? (
                 <>
-                  <h1>{project.title}</h1>
-                  <img src={`/images${project.image_cover}`} alt="" />
+                  <UniqueProject project={project} />
                 </>
               ) : null}
             </main>
