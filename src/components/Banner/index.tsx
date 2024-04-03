@@ -6,9 +6,10 @@ interface BannerProps {
 export default function Banner({ image, children }: BannerProps) {
   return (
     <div
-      style={{ backgroundImage: `url(images/${image})` }}
-      className={`mt-8 flex items-center justify-center
-       h-36 sm:h-48 md:h-[22rem] bg-fixed bg-cover bg-center 
+      style={{ backgroundImage: `url(/images/${image})` }}
+      className={` flex items-center justify-center
+       h-36 bg-fixed bg-cover bg-center relative rounded
+       after:bg-black-banner after:content[''] after:absolute after:w-full after:h-full after:rounded
        shadow-large`}
     >
       {children}
