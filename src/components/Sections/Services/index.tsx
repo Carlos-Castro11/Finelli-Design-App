@@ -1,6 +1,6 @@
 // Components
 import Card from "@/components/Card";
-import TitleSection from "@/components/TitleSection";
+import MainTitle from "@/components/MainTitle";
 
 // Constants
 import { ConstantsTitles } from "@/constants";
@@ -15,7 +15,7 @@ import { ServicesData } from "@/Database/Services";
 export default function Services() {
   return (
     <section id="services" className="mt-8">
-      <TitleSection title={ConstantsTitles.SERVICES_TITLE} />
+      <MainTitle title={ConstantsTitles.SERVICES_TITLE} />
       <Container>
         <div className="grid lg:grid-cols-3 gap-8 p-1 lg:p-10">
           {ServicesData.map((card) => (

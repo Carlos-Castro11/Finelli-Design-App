@@ -1,4 +1,6 @@
 // Components
+import DefaultText from "../DefaultText";
+import SecondTitle from "../SecondTitle";
 import { CardRoot } from "./CardRoot";
 
 interface CardProps {
@@ -13,8 +15,8 @@ export default function Card({ title, text, icon, isMiddleCard }: CardProps) {
     <CardRoot.Wrapper isMiddleCard={isMiddleCard}>
       <CardRoot.Content>
         <CardRoot.Icon icon={icon} />
-        <CardRoot.Title title={title} />
-        <CardRoot.Text text={text} />
+        <SecondTitle title={title} />
+        <DefaultText text={text} />
       </CardRoot.Content>
     </CardRoot.Wrapper>
   );

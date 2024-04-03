@@ -4,6 +4,7 @@ export interface ProjectsDataProps {
   image_cover: string;
   link: string;
   images: string[];
+  about: string;
 }
 
 export const ProjectsData: ProjectsDataProps[] = [
@@ -20,6 +21,10 @@ export const ProjectsData: ProjectsDataProps[] = [
       "/CoupleRoom/Room-5.jpg",
       "/CoupleRoom/Room-6.jpg",
     ],
+    about: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
+    ducimus. Blanditiis maiores explicabo nisi dignissimos neque
+    dolore mollitia ipsa amet assumenda natus, iusto molestiae odit
+    praesentium veniam magnam quidem voluptate.`,
   },
   {
     id: 2,
@@ -32,6 +37,10 @@ export const ProjectsData: ProjectsDataProps[] = [
       "/Office/Office-3.jpg",
       "/Office/Office-4.jpg",
     ],
+    about: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
+    ducimus. Blanditiis maiores explicabo nisi dignissimos neque
+    dolore mollitia ipsa amet assumenda natus, iusto molestiae odit
+    praesentium veniam magnam quidem voluptate.`,
   },
   {
     id: 3,
@@ -44,6 +53,10 @@ export const ProjectsData: ProjectsDataProps[] = [
       "/BoyRoom/Quarto-menino-3.jpg",
       "/BoyRoom/Quarto-menino-4.jpg",
     ],
+    about: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
+    ducimus. Blanditiis maiores explicabo nisi dignissimos neque
+    dolore mollitia ipsa amet assumenda natus, iusto molestiae odit
+    praesentium veniam magnam quidem voluptate.`,
   },
   {
     id: 4,
@@ -58,6 +71,10 @@ export const ProjectsData: ProjectsDataProps[] = [
       "/Kitchen/Kitchen-4.jpg",
       "/Kitchen/Kitchen-6.jpg",
     ],
+    about: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
+    ducimus. Blanditiis maiores explicabo nisi dignissimos neque
+    dolore mollitia ipsa amet assumenda natus, iusto molestiae odit
+    praesentium veniam magnam quidem voluptate.`,
   },
   {
     id: 5,
@@ -70,6 +87,10 @@ export const ProjectsData: ProjectsDataProps[] = [
       "/Office/Office-3.jpg",
       "/Office/Office-4.jpg",
     ],
+    about: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
+    ducimus. Blanditiis maiores explicabo nisi dignissimos neque
+    dolore mollitia ipsa amet assumenda natus, iusto molestiae odit
+    praesentium veniam magnam quidem voluptate.`,
   },
   {
     id: 6,
@@ -84,5 +105,9 @@ export const ProjectsData: ProjectsDataProps[] = [
       "/CoupleRoom/Room-5.jpg",
       "/CoupleRoom/Room-6.jpg",
     ],
+    about: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam,
+    ducimus. Blanditiis maiores explicabo nisi dignissimos neque
+    dolore mollitia ipsa amet assumenda natus, iusto molestiae odit
+    praesentium veniam magnam quidem voluptate.`,
   },
 ];

@@ -3,7 +3,7 @@ import { ConstantsTitles } from "../../../constants/index";
 
 // Components
 import Project from "@/components/Project";
-import TitleSection from "@/components/TitleSection";
+import MainTitle from "@/components/MainTitle";
 
 // Utils
 import Container from "@/utils/Container";
@@ -14,10 +14,7 @@ import { ProjectsData } from "@/Database/Projects";
 export default function Projects() {
   return (
     <section id="projects">
-      <TitleSection
-        title={ConstantsTitles.PROJECTS_TITLE}
-        firstSection={true}
-      />
+      <MainTitle title={ConstantsTitles.PROJECTS_TITLE} firstSection={true} />
       <Container>
         <div
           className={`

@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import { ProjectsData } from "@/Database/Projects";
 
 // Components
-import TitleSection from "@/components/TitleSection";
+import TitleSection from "@/components/MainTitle";
 import ProjectImage from "@/components/Project/ProjectImage";
 import CardTitle from "@/components/Card/CardTitle";
 import UniqueProject from "@/components/Sections/UniqueProject";

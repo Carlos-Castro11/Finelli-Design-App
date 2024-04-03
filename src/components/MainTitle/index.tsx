@@ -6,15 +6,15 @@ const font = Inter({
   weight: ["400"],
 });
 
-interface TitleSectionProps {
+interface MainTitleProps {
   title: string;
   firstSection?: boolean;
 }
 
-export default function TitleSection({
+export default function MainTitle({
   title,
   firstSection = false,
-}: TitleSectionProps) {
+}: MainTitleProps) {
   return (
     <div
       className={`pointer-events-none ${

@@ -1,6 +1,6 @@
 // Components
 import { ProfileRoot } from "@/components/Profile/ProfileRoot";
-import TitleSection from "@/components/TitleSection";
+import MainTitle from "@/components/MainTitle";
 
 // Constants
 import { ConstantsTitles } from "@/constants";
@@ -15,7 +15,7 @@ import { EducationData } from "@/Database/Profile";
 export default function About() {
   return (
     <section id="about" className="mt-4">
-      <TitleSection title={ConstantsTitles.ABOUT_TITLE} />
+      <MainTitle title={ConstantsTitles.ABOUT_TITLE} />
       <Container>
         <ProfileRoot.Wrapper>
           <ProfileRoot.Content />
