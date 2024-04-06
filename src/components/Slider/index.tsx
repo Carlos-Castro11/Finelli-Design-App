@@ -9,11 +9,11 @@ import { SliderRoot } from "./SliderRoot";
 import useMedia from "@/hooks/useMedia";
 
 export default function Slider() {
-  const screenWidth = useMedia("(max-width: 1100px)");
+  const isScreenLarge = useMedia("(max-width: 1100px)");
 
   return (
     <div className="">
-      {screenWidth ? (
+      {isScreenLarge ? (
         <SliderRoot.Content />
       ) : (
         <Container>

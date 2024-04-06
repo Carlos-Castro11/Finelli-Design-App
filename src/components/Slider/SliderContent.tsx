@@ -10,6 +10,8 @@ import { A11y, Navigation, Pagination, Autoplay } from "swiper/modules";
 
 // Slider Images
 import { SliderImagesUrls } from "@/Database/Slider";
+
+// Components
 import SliderButton from "./SliderButton";
 
 // Icons

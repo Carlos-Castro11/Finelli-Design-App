@@ -35,7 +35,7 @@ export default function UniqueProject({ project }: UniqueProjectProps) {
             alt=""
           />
           {isGridWithTwoColumns ? null : (
-            <div className="lg:container mx-2 lg:mx-0">
+            <div className="lg:container lg:mx-0 mx-2">
               <UniqueProjectImageRoot.Wrapper>
                 {project.images.map((image) => (
                   <UniqueProjectImageRoot.Image
