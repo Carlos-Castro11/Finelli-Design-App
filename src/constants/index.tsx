@@ -25,8 +25,8 @@ interface ConstantsUrlsTypes {
 
 export const ConstantsUrls: ConstantsUrlsTypes = {
   HOME_URL: "/",
-  ABOUT_URL: "#about",
-  PROJECTS_URL: "#projects",
-  SERVICES_URL: "#services",
-  CONTACT_URL: "#contact",
+  ABOUT_URL: "/#about",
+  PROJECTS_URL: "/#projects",
+  SERVICES_URL: "/#services",
+  CONTACT_URL: "/#contact",
 };
