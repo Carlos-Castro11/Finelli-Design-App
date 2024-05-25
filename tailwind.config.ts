@@ -13,7 +13,7 @@ const config: Config = {
         DEFAULT: ".5rem",
         sm: "1rem",
         lg: "2rem",
-        xl: "3rem",
+        xl: "4rem",
       },
     },
     extend: {

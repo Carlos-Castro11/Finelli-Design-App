@@ -32,7 +32,7 @@ export default function SliderContent({
 
   return (
     <Swiper
-      className=""
+      className="md:max-w-[90%] lg:max-w-[78%] 2xl:max-w-full lg:mb-2"
       slidesPerView={slidesPerView}
       loop={true}
       modules={[Navigation, Pagination, Autoplay, A11y]}
@@ -44,7 +44,7 @@ export default function SliderContent({
       }}
     >
       {SliderImagesUrls.map((src) => (
-        <SwiperSlide key={src} className="mb-8">
+        <SwiperSlide key={src} className="2xl:mb-8 lg:mb-5 mb-8">
           {/*eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={src}
